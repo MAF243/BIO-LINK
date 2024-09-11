@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('Profil Kessoku Band.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: 'Montserrat-Black';
+    background: rgba(255, 0, 174, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Saturday August';
+    font-size: 50px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.bio {
+    font-family: 'Montserrat-ExtraBold';
+    color: #dddddd;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    font-family: 'Montserrat-ThinItalic';
+    padding: 12px;
+    background-color: #eaff00;
+    color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link i {
+    margin-right: 8px;
+}
+
+.link:hover {
+    background-color: #00e1ff;
+    transform: translateY(-3px);
+}
+footer {
+    font-family: 'Lato-BoldItalic';
+    margin-top: 20px;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 800;
+}
+
+@font-face{
+    font-family: 'Montserrat-Black';
+    src: url('Montserrat-Black.ttf');
+}
+@font-face{
+    font-family: 'Saturday August';
+    src: url('Saturday August.ttf');
+}
+
+@font-face{
+    font-family: 'Montserrat-ThinItalic';
+    src: url('Montserrat-ThinItalic.ttf');
+}
+
+@font-face{
+    font-family: 'Lato-BoldItalic';
+    src: url('Lato-BoldItalic.ttf');
+}
